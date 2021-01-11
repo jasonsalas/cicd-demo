@@ -11,6 +11,10 @@ func Sub(x, y int) int {
 	return x - y
 }
 
+func SayHello(name string) string{
+	return "hello, " + name
+}
+
 func main() {
 	fmt.Println("thanks for playing!")
 }

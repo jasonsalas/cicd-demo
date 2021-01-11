@@ -19,3 +19,13 @@ func TestSubber(t *testing.T) {
 		t.Errorf("got %d, want %d", got, want)
 	}
 }
+
+func TestSayHello(t *testing.T){
+	got := SayHello("jas")
+	want := "hello, jas"
+
+	if got != want{
+		t.Errorf("got %s, want %s", got, want)
+	}
+}
+
