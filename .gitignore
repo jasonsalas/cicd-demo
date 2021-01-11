@@ -1,0 +1,5 @@
+# don't use Windows executables
+*.exe
+
+# or those annoying swapfiles in vim
+*.swp
