@@ -3,3 +3,7 @@
 
 # or those annoying swapfiles in vim
 *.swp
+
+# or files i'd never use anyway
+*.cpp
+*.h

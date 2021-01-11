@@ -10,3 +10,12 @@ func TestAdder(t *testing.T) {
 		t.Errorf("got %d, want %d", got, want)
 	}
 }
+
+func TestSubber(t *testing.T) {
+	got := Sub(4,2)
+	want := 2
+
+	if got != want {
+		t.Errorf("got %d, want %d", got, want)
+	}
+}
